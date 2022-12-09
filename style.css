@@ -1,0 +1,155 @@
+:root{
+    --fonte-principal:'Inter';
+}
+
+body{
+    background-color: #00030c;
+    color: #FFFFFF;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.botao{
+    background-color: #167bf7;
+    border-radius: 5px;
+    padding: 1em;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao2{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 1em;
+    color: #FFFFFF;
+    display: block;
+    border: 2px solid #FFFFFF;
+    text-decoration: none;
+}
+
+.paragrafo{
+    font-size: 12px;
+    color: #c0c0c0;
+}
+
+.titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.imagem1{
+    margin: 1em 0 2em 0;
+}
+
+.caixa{
+    margin: 0 6em;
+}
+
+.monitor{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 0.1em;
+}
+
+.paragrafo2{
+    color: #c0c0c0;
+}
+
+.botao_terceiro{
+    display: inline-block;
+    margin-top: 1em;
+    background-color: #167bf7;
+    border-radius: 5px;
+    padding: 1em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container_descricao{
+    padding: 2em;
+}
+
+.texto{
+    color: #c0c0c0;
+}
+
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 26px;
+    margin: 3em 0;
+}
+
+.dispositivos{
+    text-align: center; 
+}
+
+.titulo3{
+    font-size: 48px;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista_link a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: #c0c0c0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.lista_link a:hover{
+    color: #167bf7;
+}
+
+.lista_link a:active{
+    color: purple;
+}
